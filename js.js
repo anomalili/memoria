@@ -11,10 +11,12 @@ function CLASS(elem) {
   return document.getElementsByClassName(elem);
 }
 
-var kartya = "";
-var kepek = ["kepek/1.jpg, kepek/2.jpg,kepek/3.jpg,kepek/4.png,kepek/5.jpg,kepek/6.jpg,kepek/7.jpg,kepek/8.jpg" ];
 
 function init () {
+var kartya = "";
+var LBT = "";
+  
+var kepek = [{"kepek/1.jpg}, {kepek/2.jpg} ,{kepek/3.jpg} , {kepek/4.png} , {kepek/5.jpg},{kepek/6.jpg},{kepek/7.jpg},{kepek/8.jpg}" ];
    
 
  for (let index = 0; index < 2; index++) {
