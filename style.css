@@ -1,0 +1,13 @@
+.memoria {background-color: blueviolet; display: grid; grid-template-rows: 1ft 1fr 1fr 1fr; max-width: 800px; margin: auto;}
+
+body {background-color: aquamarine; margin: auto; font-family: sans-serif;}
+
+header h1 {text-align: center;}
+
+.kartya {background-color: brown; background-image: url("kepek/logo.png"); opacity: 0%;}
+
+.memoria div { max-width: 150px; max-height: 150px; gap: 10px; background-color: blue;}
+
+div img {width: 100%;}
+
+.latszodik {opacity: 100%;}
