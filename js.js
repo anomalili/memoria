@@ -24,7 +24,7 @@ var kepek = [{"kepek/1.jpg}, {kepek/2.jpg} ,{kepek/3.jpg} , {kepek/4.png} , {kep
             for (let index = 0; index < kepek.length; index++) {
                 
                 kartya += `<div id="${index}">${index}</div>`;
-                        ID(kartya).innerHTML = kepek[index];
+                        ID("memoria").innerHTML = kepek[index];
                         
                         
                 
